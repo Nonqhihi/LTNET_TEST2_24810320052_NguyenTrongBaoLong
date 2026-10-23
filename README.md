@@ -15,9 +15,9 @@
 | Bài tập | Tiêu đề bài tập | Trạng thái | Mức độ hoàn thành (%) | 
 | ----- | ----- | ----- | ----- | 
 | **Bài 1** | Quản lý Đặt phòng Khách sạn | Hoàn thành | 100% | 
-| **Bài 2** | Quản lý Hồ sơ Nhân sự & Thông tin Lương | Đang hoàn thiện | \- | 
-| **Bài 3** | Hệ thống MDI Quản lý Trường học & Đào tạo | Hoàn thành | 100% | 
-| **Bài 4** | Bảng Điều khiển Tổng hợp Báo cáo Kho hàng | Đang hoàn thiện | \- | 
+| **Bài 2** | Quản lý Hồ sơ Nhân sự & Thông tin Lương | Hoàn thành | 100% | 
+| **Bài 3** | Hệ thống MDI Quản lý Trường học & Đào tạo | Đang hoàn thiện | 50% | 
+| **Bài 4** | Bảng Điều khiển Tổng hợp Báo cáo Kho hàng | Hoàn thành | 100% | 
 | **Bài 5** | Mô phỏng Giám sát Hệ thống Cảnh báo IoT Real-time | Hoàn thành | 100% | 
 
 ## III. MINH HỌA GIAO DIỆN & KỸ THUẬT NỔI BẬT
@@ -33,15 +33,15 @@
   * Ràng buộc và kiểm tra hợp lệ dữ liệu nhập với `ErrorProvider` (kiểm tra tên khách hàng trống, CCCD 9/12 số hợp lệ, và giá phòng nguyên dương).
 
 * **Hình ảnh minh họa Giao diện:**
-(docs/bai1_main.png)
+![Giao diện chính Bài 1](docs/bai1_main.png)
 
 *Mô tả: Giao diện chính lúc khởi động.*
 
-(docs/bai1_hienthi.png)
+![Giao diện hiển thị Bài 1](docs/b1_hienthi.png)
 
 *Mô tả: Giao diện khi nạp và hiển thị dữ liệu thành công.*
 
-(docs/bai1_error.png)
+![Bắt lỗi Validation Bài 1](docs/bai1_error.png)
 
 *Mô tả: ErrorProvider cảnh báo lỗi trực quan khi dữ liệu không thỏa mãn điều kiện nghiệp vụ.*
 
@@ -57,7 +57,11 @@
 
 * **Hình ảnh minh họa Giao diện:**
 
-*(Hình ảnh đang được cập nhật)*
+![Giao diện chính Bài 2](docs/bai2_main.png)
+
+*Mô tả: Giao diện chính bài 2*
+
+![Giao diện thêm thông tin bài 2](docs/bai2_hienthi)
 
 ### 3. Bài 3: Hệ thống MDI Quản lý Trường học & Đào tạo
 
@@ -71,7 +75,7 @@
 
 * **Hình ảnh minh họa Giao diện:**
 
-(docs/bai3_mdi.png)
+![Giao diện Khung MDI](docs/bai3_mdi.png)
 
 *Mô tả: Cửa sổ cha MDI điều khiển và quản lý các form con.*
 
@@ -79,9 +83,14 @@
 
 * **Kỹ thuật áp dụng:** Lập trình bất đồng bộ `async/await` kết hợp `Task.Run()` đẩy tác vụ nặng xuống Background Thread giữ cho UI luôn mượt mà. Sử dụng tiến trình ngầm cập nhật ProgressBar và hủy tác vụ an toàn bằng `CancellationTokenSource`.
 
+
 * **Hình ảnh minh họa Giao diện:**
 
-*(Hình ảnh đang được cập nhật)*
+![Giao diện bài 4](docs/bai4_main.png)
+
+*Mô tả: Giao diện chính bài 4
+
+
 
 ### 5. Bài 5: Mô phỏng Giám sát Hệ thống Cảnh báo IoT Real-time
 
@@ -95,11 +104,11 @@
 
 * **Hình ảnh minh họa Giao diện:**
 
-(docs/bai5_main.png)
+![Giao diện chính Bài 5](docs/bai5_main.png)
 
 *Mô tả: Giao diện hệ thống giám sát khi ở trạng thái sẵn sàng.*
 
-(docs/bai5_running.png)
+![Giao diện hoạt động Bài 5](docs/bai5_running.png)
 
 *Mô tả: Bảng hiển thị nhiệt độ tự đổi màu theo thông số và ghi nhận vào nhật ký khi đang chạy real-time.*
 
