@@ -61,7 +61,7 @@
 
 *Mô tả: Giao diện chính bài 2*
 
-![Giao diện thêm thông tin bài 2](docs/bai2_hienthi)
+![Giao diện thêm thông tin bài 2](docs/bai2_hienthi.png)
 
 ### 3. Bài 3: Hệ thống MDI Quản lý Trường học & Đào tạo
 
